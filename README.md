@@ -18,3 +18,6 @@
 
 * git restore .
 * git restore filrname
+
+* git checkout branch-name
+* git checkout commit-hash
