@@ -15,3 +15,6 @@
 * git log -p -2
 
 * git reset --hard HEAD-1
+
+* git restore .
+* git restore filrname
