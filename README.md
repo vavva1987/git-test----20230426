@@ -21,3 +21,8 @@
 
 * git checkout branch-name
 * git checkout commit-hash
+
+* git branch
+* git branch -v
+* git branch new-branch-name
+
