@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacts</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="container">
+
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item"><a class="navbar-link" href="../index.html">HTML</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="articles.html">Articles</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="catalog.html">Catalog</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="gallery.html">Gallery</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="registration.html">Registration</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="contacts.html">Contacts</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="page-nav.html">Page-nav</a></li>
+        </ul>
+      </nav>
+
+    </div>
+  </header>
+
+  <main class="main">
+    <div class="container">
+      <h1>Contacts</h1>
+
+      <div>
+        <h2>Adress: Warsaw, Marshalkovska 20/22</h2>
+        <img src="img/adress.jpg" alt="Adress">
+      </div>
+
+      <form action="https://tests.fomenko.top/echo/index.php">
+
+        <fieldset>
+          <legend>Feedback</legend>
+
+          <div class="form-group">
+            <label class="form-label" for="name">Name</label>
+            <input name="name" id="name" type="text" placeholder="Name">
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="telefone">Telefone</label>
+            <input name="telefone" id="telefone" type="text" placeholder="Telefone">
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="email">email</label>
+            <input name="email" id="email" type="text" placeholder="email">
+          </div>
+
+        </fieldset>
+
+        <fieldset>
+          <legend>Question</legend>
+
+          <div class="form-group">
+            <label class="form-label" for="txt">Question</label>
+            <textarea name="txt" id="txt" cols="30" rows="10" placeholder="Question"></textarea>
+          </div>
+
+        </fieldset>
+
+        <fieldset>
+
+          <div class="form-group">
+            <button type="submit">Send form to server</button>
+          </div>
+          <div class="form-group">
+            <button type="reset">Clear form</button>
+          </div>
+
+        </fieldset>
+
+      </form>
+
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+
+      <div class="copy">
+        @ Kysil Volodymyr
+      </div>
+
+    </div>
+  </footer>
+
+</body>
+
+</html>

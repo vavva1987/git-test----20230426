@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="container">
+
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item"><a class="navbar-link" href="../index.html">HTML</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="articles.html">Articles</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="catalog.html">Catalog</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="gallery.html">Gallery</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="registration.html">Registration</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="contacts.html">Contacts</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="page-nav.html">Page-nav</a></li>
+        </ul>
+      </nav>
+
+    </div>
+  </header>
+
+  <main class="main">
+    <div class="container">
+
+      <h1>Registration</h1>
+
+      <form action="https://tests.fomenko.top/echo/index.php" method="GET">
+
+        <fieldset>
+          <legend>Basic Inputs</legend>
+
+          <div class="form-group">
+            <label class="form-label" for="first-name">First Name</label>
+            <input name="first-name" id="first-name" type="text" placeholder="First Name">
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="second-name">Second Name</label>
+            <input name="second-name" id="second-name" type="text" placeholder="Second Name">
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="email">email</label>
+            <input name="email" id="email" type="text" placeholder="email">
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="password">Password</label>
+            <input name="password" id="password" type="text" placeholder="Password">
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="site">Site</label>
+            <input name="site" id="site" type="text" placeholder="Site" value="https:mysite.name">
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="date">Birthday</label>
+            <input name="date" id="date" type="date">
+          </div>
+
+        </fieldset>
+
+        <fieldset>
+          <legend>Male</legend>
+
+          <div class="form-group">
+            <input name="gender-male" id="gender-male" type="radio" value="male">
+            <label class="form-label" for="gender-male">Male</label>
+          </div>
+
+          <div class="form-group">
+            <input name="male" id="male" type="radio" value="female">
+            <label class="form-label" for="male">Female</label>
+          </div>
+
+        </fieldset>
+
+        <fieldset>
+          <legend>Kitchen</legend>
+
+          <div class="form-group">
+            <input name="poland" id="poland" type="checkbox" value="poland">
+            <label class="form-label" for="poland">Poland</label>
+          </div>
+
+          <div class="form-group">
+            <input name="italian" id="italian" type="checkbox" value="italian">
+            <label class="form-label" for="italian">Italian</label>
+          </div>
+
+          <div class="form-group">
+            <input name="ukrainian" id="ukrainian" type="checkbox" value="ukrainian">
+            <label class="form-label" for="ukrainian">Ukrainian</label>
+          </div>
+
+        </fieldset>
+
+        <!-- <fieldset>
+      <legend>Select examle</legend>
+
+      <div>
+        <label for="list">Car year</label>
+        <select name="list" id="list">
+          <option value="" selected disabled>Chose year</option>
+          <option value="2020">2020</option>
+          <option value="2021">2021</option>
+          <option value="2022">2022</option>
+          <option value="2023">2023</option>
+          <option value="2024">2024</option>
+        </select>
+      </div>
+    </fieldset> -->
+
+        <fieldset>
+          <legend>About yourself</legend>
+
+          <div class="form-group">
+            <label class="form-label" for="txt">Details</label>
+            <textarea name="txt" id="txt" cols="30" rows="10" placeholder="Details..."></textarea>
+          </div>
+
+        </fieldset>
+
+        <fieldset>
+
+          <div class="form-group">
+            <button type="submit">Send form to server</button>
+          </div>
+
+          <div>
+            <button type="reset">Clear form</button>
+          </div>
+
+        </fieldset>
+
+      </form>
+
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+
+      <div class="copy">
+        @ Kysil Volodymyr
+      </div>
+
+    </div>
+  </footer>
+
+</body>
+
+</html>
